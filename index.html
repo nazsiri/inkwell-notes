@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#16181d">
+<title>Inkwell Notes</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app" class="app">
+  <aside id="sidebar" class="sidebar" aria-label="Navigation"></aside>
+  <div class="scrim" data-act="close-sidebar"></div>
+  <section id="list" class="list" aria-label="Notes list"></section>
+  <main id="editor" class="editor" aria-label="Editor"></main>
+  <main id="page" class="page" aria-label="Page"></main>
+</div>
+<div id="overlay" class="overlay" hidden></div>
+<div id="menu-root"></div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<input type="file" id="file-image" accept="image/*" multiple hidden>
+<input type="file" id="file-any" multiple hidden>
+<input type="file" id="file-import" accept=".json,application/json" hidden>
+<script src="app.js"></script>
+</body>
+</html>

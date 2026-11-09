@@ -1,0 +1,11 @@
+{
+  "name": "Inkwell Notes",
+  "short_name": "Inkwell",
+  "description": "A premium notes workspace — notebooks, tasks, reminders and more. All features unlocked.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#16181d",
+  "theme_color": "#16181d",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
